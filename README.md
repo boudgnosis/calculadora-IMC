@@ -8,6 +8,8 @@ Esta calculadora te indica tu **IMC** y contiene un imagen de referencia para qu
 
 ## Demo
 
-[Captura de la página calculadora IMC](./demo-calculadora-imc)
-
 [live]() 
+
+![Captura de la página calculadora IMC](demo-calculadora-imc.png)
+
+
