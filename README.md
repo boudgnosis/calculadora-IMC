@@ -1,15 +1,13 @@
-# Calculadora de indice de masas corporal o IMC
+# Calculadora de índice de masas corporal o IMC
 
 ## Descripción
 
-Esta calculadora te indica tu **IMC** y contiene un imagen de referencia para que puedas compararlo con los estandares esperados en base a este.
+Esta calculadora te indica tu **IMC** y contiene una imagen de referencia para que puedas compararlo con los estándares esperados basándose en la imagen.
 
-> Esta es una pratica basada en el codigo de [Lucas Moy](https://youtu.be/mnNgNI6QhfE)
+> Esta es una práctica basada en el código de [Lucas Moy](https://youtu.be/mnNgNI6QhfE)
 
 ## Demo
 
-[live]() 
+[live](https://boudgnosis.github.io/calculadora-IMC/) 
 
 ![Captura de la página calculadora IMC](demo-calculadora-imc.png)
-
-
