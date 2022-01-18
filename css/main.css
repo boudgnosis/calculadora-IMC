@@ -1,0 +1,145 @@
+:root {
+	--background-cal-gradient: #3c7def;
+	--white: #ffffff;
+	--green-aqua: #79f8a5;
+	--green-aqua-strong: #3cef7b;
+}
+
+ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background: linear-gradient(#efae3c, #ef3c6c);
+	font-family: 'Dongle', sans-serif;
+}
+
+/* GLOBAL STYLES */
+.bord-rad {
+	border: none;
+	border-radius: 7px;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	-ms-border-radius: 7px;
+	-o-border-radius: 7px;
+}
+
+.labels {
+	font-size: 1.7em;
+	margin: 0.2rem 0;
+	color: var(--white);
+	font-weight: 700;
+}
+
+/* LOCAL STYLES */
+.calculator_title {
+	text-align: center;
+	font-size: 5em;
+	color: #fff;
+	text-shadow: 0.1em 0.1em 0.2em rgba(3, 19, 23, .5);
+	margin: 0.4375rem 0;
+}
+
+.calculator {
+	display: flex;
+	flex-direction: column;
+	width: 37.5rem;
+	padding: 1.5625rem;
+	margin: 0 auto;
+	background: linear-gradient(170deg, var(--background-cal-gradient), var(--green-aqua-strong));
+	box-shadow: 0px 10px 40px rgba(3, 19, 23, .25);
+}
+
+.inputs_style {
+	font-size: 1.5em;
+	outline: 2px solid var(--green-aqua);
+}
+
+.inputs_style:focus {
+	outline: 3px solid var(--green-aqua-strong);
+}
+
+.calculator_btn {
+	font-size: 1.2em;
+	cursor: pointer;
+	background-color: var(--green-aqua);
+	font-weight: 700;
+	font-size: 1.7em;
+}
+
+.calculator_btn:hover {
+	color: #ffff;
+	background-color: var(--green-aqua-strong);
+}
+
+.calculator_btn:active {
+	transform: scale(.9);
+	-webkit-transform: scale(.9);
+	-moz-transform: scale(.9);
+	-ms-transform: scale(.9);
+	-o-transform: scale(.9);
+}
+
+.p_result {
+	font-size: 1.9em;
+	margin: 0.7rem  auto;
+	font-weight: 700;
+}
+
+.result {
+	font-size: 1.2em;
+	font-weight: 300;
+}
+
+.table_imc {
+	margin: 0 auto;
+	width: 37.5rem;
+	margin-top: 2rem;
+}
+
+.table_imc img {
+	width: 100%;
+	box-shadow: 0px 10px 40px rgba(3, 19, 23, .25);
+}
+
+.footer {
+	margin-top: 1.3rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.footer div a {
+	margin: 0 7px;
+	padding: 0;
+	text-decoration: none;
+}
+
+.footer .by_name {
+	margin: 0 0 7px 0;
+	font-size: 1.5em;
+}
+
+/* Media queris */
+@media screen and (min-width: 320px) and (max-width: 480px) {
+	.calculator {
+		width: 15rem;
+	}
+
+	.table_imc {
+		width: 18rem;
+	}
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+	.calculator {
+		width: 21rem;
+	}
+
+	.table_imc {
+		width: 24rem;
+	}
+}

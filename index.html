@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<title>Calculadora IMC</title>
+	<meta charset="UTF-8">
+	<link rel="shortcut icon" href="./assets/icons/calculator.png" type="image/x-icon">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- NORMALIZE -->
+	<link rel="stylesheet" href="./css/normalize.css">
+	<!-- FONTS: DONGLE -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Dongle:wght@300;700&display=swap" rel="stylesheet">
+	<!-- STYLE -->
+	<link rel="stylesheet" href="./css/main.css">
+	<!-- SCRIPT -->
+	<script src="./js/main.js" defer></script>
+</head>
+
+<body>
+	<h1 class="calculator_title">Calculadora IMC</h1>
+	<form class="calculator bord-rad">
+		<label class="labels" for="input_peso">Peso</label>
+		<input class="bord-rad inputs_style" id="input_peso" type="text" placeholder="Ingrese su peso en kilogramos">
+		<label class="labels" for="input_altura">Altura</label>
+		<input class="bord-rad inputs_style" type="text" id="input_altura" placeholder="Ingrese su altura en metros">
+		<p class="p_result">Tu IMC es:
+			<span class="result" id="result"></span>
+		</p>
+		<button class="calculator_btn bord-rad" id="btn_calcular" type="button" title="Calcular">Calculadora</button>
+	</form>
+	<div class="table_imc">
+		<img class="bord-rad" src="./assets/img/IMC.jpg" alt="Tabla que muestra los rangos del Indice de Masa Corporal o IMC" title="Tabla IMC">
+	</div>
+	<footer class="footer">
+		<div>
+			<a href="https://www.linkedin.com/in/jpariasduque/" rel="noopener noreferrer" target="_blank">
+				<img src="./assets/icons/linkedin.png" alt="Icono en 3D de linkedin" title="Linkedin">
+			</a>
+			<a href="https://twitter.com/juan_ariasd" rel="noopener noreferrer" target="_blank">
+				<img src="./assets/icons/twitter.png" alt="Icono en 3D de twitter" title="Twitter">
+			</a>
+			<a href="mailto:juanpablo_ariasduque@protonmail.com">
+				<img src="./assets/icons/gmail.png" alt="Icono en 3D de gmail" title="Gmail">
+			</a>
+		</div>
+		<h3 class="by_name" translate="no">By Juan Pablo</h3>
+	</footer>
+</body>
+
+</html>
